@@ -22,14 +22,14 @@ def main(params):
     ## download the parquet
     df = pd.read_parquet("output.parquet")
 
-    df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
-    df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
+    df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
+    df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
 
     engine = create_engine(f"postgresql://{user}:{password}@{host}:{port}/{db}")
 
     engine.connect()
 
-    df.head(n=0).to_sql(name="yellow_taxi_data", con=engine, if_exists="replace")
+    df.head(n=0).to_sql(name="green_taxi_data", con=engine, if_exists="replace")
 
     print(pd.io.sql.get_schema(df, name=table_name, con=engine))
 
