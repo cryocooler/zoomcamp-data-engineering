@@ -2100,3 +2100,24 @@ IndentationError: expected an indented block after 'with' statement on line 56
 [2024-06-22T21:42:46.275+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:42:46.275+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-22T21:42:46.292+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:42:46.292+0000] {dag.py:3954} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
 [2024-06-22T21:42:46.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 0.106 seconds
+[2024-06-22T21:43:16.605+0000] {processor.py:161} INFO - Started process (PID=2310) to work on /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:16.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_gcs_dag.py for tasks to queue
+[2024-06-22T21:43:16.616+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:16.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:16.661+0000] {processor.py:840} INFO - DAG(s) 'data_ingestion_gcs_dag' retrieved from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:16.692+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:16.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T21:43:16.714+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:16.713+0000] {dag.py:3954} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T21:43:16.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 0.139 seconds
+[2024-06-22T21:43:46.877+0000] {processor.py:161} INFO - Started process (PID=2317) to work on /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:46.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_gcs_dag.py for tasks to queue
+[2024-06-22T21:43:46.881+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:46.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:46.916+0000] {processor.py:840} INFO - DAG(s) 'data_ingestion_gcs_dag' retrieved from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:43:46.938+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:46.938+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T21:43:46.956+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:43:46.956+0000] {dag.py:3954} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T21:43:46.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 0.100 seconds
+[2024-06-22T21:44:17.203+0000] {processor.py:161} INFO - Started process (PID=2324) to work on /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:44:17.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/data_ingestion_gcs_dag.py for tasks to queue
+[2024-06-22T21:44:17.208+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:44:17.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:44:17.257+0000] {processor.py:840} INFO - DAG(s) 'data_ingestion_gcs_dag' retrieved from /opt/airflow/dags/data_ingestion_gcs_dag.py
+[2024-06-22T21:44:17.291+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:44:17.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T21:44:17.310+0000] {logging_mixin.py:188} INFO - [2024-06-22T21:44:17.310+0000] {dag.py:3954} INFO - Setting next_dagrun for data_ingestion_gcs_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T21:44:17.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/data_ingestion_gcs_dag.py took 0.130 seconds
